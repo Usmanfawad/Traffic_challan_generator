@@ -1,0 +1,40 @@
+Q) Write a program for a traffic warden who has a tedious task of filling challans manually. Your program should be able to take input of the civilian’s name, CNIC number and number plate of the vehicle. Your program should then run a loop of different violations with an option of entering Y(yes) or N(no) against different types of traffic violations. Your program should also display the date and time at which the challan is issued to that particular person. Challan number should be generated automatically and if the same civilian is stopped by a traffic warden at any place against the same violations on the same day, a challan cannot be issued. This should be checked against the CNIC number of the civilian. At the end your program should generate a slip which must include the following:-
+•	Date and Time the challan is issued
+•	Name, CNIC number, number plate of the civilian
+•	Table of the type of violations against which the challan is issued
+•	Total fine payable
+
+Types of common violations:-
+1)	Speeding
+2)	Reckless driving
+3)	Driving while intoxicated
+4)	Illegal lane changes
+5)	Failure to stop at red light
+6)	Underage
+7)	No license
+8)	Parking violation
+9)	Broken tail light
+
+OUTPUT:-
+
+
+
+
+
+
+
+
+
+	     E-Challan Slip
+--------------------------------------------------
+CHALLAN NO#:      0001
+23:10-  08/01/2019
+Name:                     M.Bazil Khan
+CNIC#:                     42201-4563329-1
+Vehicle no.plate:   BGX-990
+Violation Type:-			Fine:
+---------------------------------------------------
+1- Reckless driving		200/-
+2- No license			300/-
+Total Fine:			500/-
+---------------------------------------------------
